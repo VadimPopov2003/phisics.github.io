@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #999999;
+    height: auto;
+}
+
+#mainPic {
+    margin: auto;
+    width: 100%;
+}
+
+#menu {
+    height: auto;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(33, 33, 33, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    flex-direction: row;
+    color: #fff;
+}
+
+#logo {
+    font-size: 25px;
+    letter-spacing: 3px;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    float: left;
+    left: 5%;
+}
+
+#bar {
+    float: right;
+    position: relative;
+    margin: 0;
+    list-style: none;
+    letter-spacing: 1px;
+    padding: 16px 5%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.li1 {
+    float: left;
+    margin-right: 35px;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+#nocontent {
+    width: 100%;
+    height: 50px;
+}
+@media screen and (min-width: 0) and (max-width: 356px)
+{
+    #nocontent {
+        height: 120px;
+    }
+}
+@media screen and (min-width: 356px) and (max-width: 480px)
+{
+    #nocontent {
+        height: 100px;
+    }
+}
+<!---->
+#content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: black;
+}
+#log-in {
+    position: relative;
+    height: auto;
+    width: 300px;
+    margin: 0 5px 2.5px 5px;
+    padding: 0;
+    float: left;
+    display: block;
+}
+#inf {
+    position: relative;
+    height: auto;
+    min-width: 300px;
+    margin: 0 5px 2.5px 5px;
+    padding: 0;
+    flex-grow: 1;
+    display: block;
+    background-color: white;
+}
+
+#footer {
+    background-color: rgba(33, 33, 33, 0.9);
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    font-size: small;
+}
+#CC {
+    margin: 0 25%;
+    width: 50%;
+}
+#f1 {
+    width: 100%;
+    height: 50%;
+}
+<!---->
+#entr {
+    padding: 2% 25% 10% 25%;
+    background-color: white;
+
+}
+#them {
+    background-color: white;
+    padding: 2% 20% 10% 10%;
+    list-style: none;
+}
+#theory {
+    text-decoration-line: none;
+}
+#thh {
+    background-color: white;
+    padding: 2% 20% 2% 20%;
+}
+<!---->
+#sch {
+    width: 100%;
+    height: auto;
+    margin: 0 5px 2.5px 5px;
+}
+#search {
+    width: 300px;
+    height: 20px;
+}
+#mainBody {
+    margin: 0 5%;
+}
